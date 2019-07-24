@@ -7,3 +7,19 @@ var fourth = character[Math.floor(Math.random()*items.length)];
 var fifth = character[Math.floor(Math.random()*items.length)];
 var sixth = character[Math.floor(Math.random()*items.length)];
 var seventh = character[Math.floor(Math.random()*items.length)];
+
+String url = "imgur.com/a/" + first + second + third + fourth + fifth + sixth + seventh
+
+urlExists(url, function(exists) {
+  if (exists) {
+    System.out.println(url);
+  } else {
+var first = character[Math.floor(Math.random()*items.length)];
+var second = character[Math.floor(Math.random()*items.length)];
+var third = character[Math.floor(Math.random()*items.length)];
+var fourth = character[Math.floor(Math.random()*items.length)];
+var fifth = character[Math.floor(Math.random()*items.length)];
+var sixth = character[Math.floor(Math.random()*items.length)];
+var seventh = character[Math.floor(Math.random()*items.length)];
+  }
+});
