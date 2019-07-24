@@ -1,0 +1,1 @@
+So, I wanted to make a possible imgur link brute forcer b using randomisers and arrays to help find imgur albums when it might be necessary to do so. However, I have next to no clue what I'm doing and would definitely appreciate help.
